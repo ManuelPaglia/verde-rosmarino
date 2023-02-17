@@ -1,0 +1,73 @@
+.detail-header {
+    display: flex;
+    padding: 1rem 1.5rem;
+    flex-direction: column;
+
+}
+
+.sticky-area {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+}
+
+.card-detail-image {
+    margin: 0 1.5rem;
+}
+
+.ingredient-header {
+    display: flex;
+    margin: 0 1.5rem;
+}
+
+.set-portion {
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    background-color: #3a3a3a;
+    padding: 0.5px;
+    margin: 3vw;
+}
+
+.ingredient-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-container::-webkit-scrollbar {
+    display: none;
+}
+
+.ingredient-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5vh 7vw;
+}
+
+.recipe-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 30px;
+}
+
+.detail-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.desc-header {
+    display: flex;
+    padding: 3vw 5vw;
+}
+
+.desc-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0vw 2vw;
+}
